@@ -247,38 +247,26 @@ function onAssetsLoaded(loader, res) {
     //cherry symbol
     Cherry = new PIXI.spine.Spine(res.Cherry.spineData);
     Cherry.skeleton.setToSetupPose();
-    // Cherry.update(0);
-    // Cherry.autoUpdate = false;
 
     //lemon symbol
     Lemon = new PIXI.spine.Spine(res.Lemon.spineData);
     Lemon.skeleton.setToSetupPose();
-    // Lemon.update(0);
-    // Lemon.autoUpdate = false;
 
     //orange symbol
     Orange = new PIXI.spine.Spine(res.Orange.spineData);
     Orange.skeleton.setToSetupPose();
-    // Orange.update(0);
-    // Orange.autoUpdate = false;
 
     //plum symbol
     Plum = new PIXI.spine.Spine(res.Plum.spineData);
     Plum.skeleton.setToSetupPose();
-    // Plum.update(0);
-    // Plum.autoUpdate = false;
 
     //grapes symbol
     Grape = new PIXI.spine.Spine(res.Grape.spineData);
     Grape.skeleton.setToSetupPose();
-    // Grape.update(0);
-    // Grape.autoUpdate = false;
 
     //watermelon symbol
     WaterMelon = new PIXI.spine.Spine(res.WaterMelon.spineData);
     WaterMelon.skeleton.setToSetupPose();
-    // WaterMelon.update(0);
-    // WaterMelon.autoUpdate = false;
 
     // Create different slot symbols.
     const slotTextures = [
