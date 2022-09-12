@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preloading Assets</title>
+    <script src="./js/libs/pixi.js"></script>
+	<script src="./js/libs/gsap.min.js"></script>
+	<script src="./js/libs/pixi-spine.js"></script>
+    <script>
+        //fruit object
+    fruit = new PIXI.Sprite.from("./assets/symbols/symbol_00.png");
+    fruit.anchor.set(0.5);
+    fruit.x = app.view.width / 2;
+    fruit.y = app.view.height / 2;
+
+    app.stage.addChild(fruit);
+    </script>
+</head>
+<body>
+    <script src="./js/main.js"></script>
+</body>
+</html>
